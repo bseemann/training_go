@@ -12,7 +12,7 @@ func bigger(n float64) float64 {
 }
 
 func main() {
-	fmt.Sprintf("%v", bigger(12))
-	fmt.Sprintf("%v", 12)
-	fmt.Sprintf("%v", 12.0)
+	fmt.Printf("%v -> %v\n", 12, bigger(12))
+	fmt.Printf("%v -> %v\n", 10, bigger(10))
+	fmt.Printf("%v -> %v\n", 9, bigger(9))
 }
