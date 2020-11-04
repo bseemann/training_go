@@ -2,7 +2,7 @@ package main
 
 import "testing"
 
-func TestSUM(t *testing.T) {
+func TestSum(t *testing.T) {
 	t.Run("Case numbers are all equal", func(t *testing.T) {
 		resultado := Sum([]int{10, 10, 10})
 		esperado := 30
